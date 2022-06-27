@@ -1,0 +1,550 @@
+.cmsmasters_featured_with_form {
+  outline: none;
+}
+
+.cmsmasters_featured_with_form h2 {
+  display: inline-block;
+  width: 70%;
+  padding-right: 15px;
+  vertical-align: middle;
+}
+
+.cmsmasters_featured_with_form .widget_wysija_cont {
+  text-align: right;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.cmsmasters_featured_with_form .wysija-submit {
+  float: right;
+}
+
+.cmsmasters_featured_with_form .wysija-paragraph {
+  padding-right: 5px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+  .cmsmasters_featured_with_form h2 {
+    width: 60%;
+  }
+  .cmsmasters_featured_with_form .widget_wysija_cont {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .cmsmasters_featured_with_form h2 {
+    text-align: center;
+    display: block;
+    width: auto;
+  }
+  .cmsmasters_featured_with_form .widget_wysija_cont {
+    display: block;
+    width: auto;
+    text-align: center;
+  }
+  .cmsmasters_featured_with_form form {
+    display: inline-block;
+  }
+}
+
+/* PODLASIAK */
+
+.header_mid .logo_wrap .logo img {
+  padding: 10px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-brands {
+  height: 160px;
+  width: 23%;
+  padding: 30px 0;
+  background-color: #b6181c;
+  border-radius: 5px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.logo-brands:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+  transition: all 0.2s;
+}
+
+.logo-brands:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+  transition: all 0.2s;
+}
+
+.logo-icon__img {
+  display: block;
+  margin: 0 40px;
+  max-width: 200px;
+  max-height: 120px;
+}
+
+.logo-text__brand {
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0 0 0;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about-container {
+  margin: 50px 0;
+  display: flex;
+}
+
+.about-left,
+.about-right {
+  width: 50%;
+}
+
+.about-heading {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.about-text__bold {
+  font-size: 16px;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.about-text__colored {
+  font-size: 19px;
+  padding: 10px 20px;
+  color: #b6181c;
+  text-align: left;
+}
+
+.about-text__primary {
+  font-size: 18px;
+  padding: 10px 20px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.heading__brands,
+.heading__about,
+.heading__news {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.days {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#bottom {
+  border-top: 1px solid #ebebeb;
+  padding-bottom: 0;
+}
+
+.sub-menu {
+  border-radius: 10px;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
+.cmsmasters_heading strong {
+  display: block;
+  font-weight: 900;
+}
+
+.google-map-em {
+  width: 100%;
+  height: 500px;
+}
+
+#BRANDS {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+.store_map {
+  margin: 0 auto;
+}
+
+.store_map_svg {
+}
+
+.BRAND_SELECTOR {
+  transition: 0.2s;
+}
+
+.BRAND_ACTIVE {
+  display: none;
+}
+
+.NEXTERIO {
+  transition: 0.2s all !important;
+  transform-origin: 60% 4.5%;
+  position: relative;
+}
+.NEXTERIO:hover {
+  transform: scale(1.1);
+}
+
+.ARTE {
+  transition: 0.2s all !important;
+  transform-origin: 74% 20%;
+  position: relative;
+}
+.ARTE:hover {
+  transform: scale(1.1);
+}
+
+.REA {
+  transition: 0.2s all !important;
+  transform-origin: 74% 28%;
+  position: relative;
+}
+.REA:hover {
+  transform: scale(1.1);
+}
+.TUTUMI {
+  transition: 0.2s all !important;
+  transform-origin: 74% 34%;
+  position: relative;
+}
+.TUTUMI:hover {
+  transform: scale(1.1);
+}
+
+.TOOLIGHT {
+  transition: 0.2s all !important;
+  transform-origin: 70% 41%;
+  position: relative;
+}
+.TOOLIGHT:hover {
+  transform: scale(1.1);
+}
+
+.ROMTEX {
+  transition: 0.2s all !important;
+  transform-origin: 70% 52%;
+  position: relative;
+}
+.ROMTEX:hover {
+  transform: scale(1.1);
+}
+
+.EXPERT {
+  transition: 0.2s all !important;
+  transform-origin: 70% 59%;
+  position: relative;
+}
+.EXPERT:hover {
+  transform: scale(1.1);
+}
+
+.MANIA_SPANIA {
+  transition: 0.2s all !important;
+  transform-origin: 60% 60%;
+  position: relative;
+}
+.MANIA_SPANIA:hover {
+  transform: scale(1.25);
+}
+
+.DO_WYNAJECIA_3 {
+  transition: 0.2s all !important;
+  transform-origin: 75% 48%;
+  position: relative;
+}
+.DO_WYNAJECIA_3:hover {
+  transform: scale(1.1);
+}
+
+.ASYMETRIA {
+  transition: 0.2s all !important;
+  transform-origin: 75% 69%;
+  position: relative;
+}
+.ASYMETRIA:hover {
+  transform: scale(1.1);
+}
+
+.RS_DESIGN {
+  transition: 0.2s all !important;
+  transform-origin: 75% 75%;
+  position: relative;
+}
+.RS_DESIGN:hover {
+  transform: scale(1.1);
+}
+
+.TOPAZ {
+  transition: 0.2s all !important;
+  transform-origin: 76% 81%;
+  position: relative;
+}
+.TOPAZ:hover {
+  transform: scale(1.5);
+}
+
+.PROFIL_RECT {
+  transition: 0.2s all !important;
+  transform-origin: 61% 90%;
+  position: relative;
+}
+.PROFIL_RECT:hover {
+  transform: scale(1.2);
+}
+
+.ZOV {
+  transition: 0.2s all !important;
+  transform-origin: 22% 82%;
+  position: relative;
+}
+.ZOV:hover {
+  transform: scale(1.4);
+}
+
+.FASTER {
+  transition: 0.2s all !important;
+  transform-origin: 22% 72%;
+  position: relative;
+}
+.FASTER:hover {
+  transform: scale(1.1);
+}
+
+.BRW {
+  transition: 0.2s all !important;
+  transform-origin: 22% 58%;
+  position: relative;
+}
+.BRW:hover {
+  transform: scale(1.1);
+}
+
+.DO_WYNAJECIA_2 {
+  transition: 0.2s all !important;
+  transform-origin: 15% 49%;
+  position: relative;
+}
+.DO_WYNAJECIA_2:hover {
+  transform: scale(1.1);
+}
+
+.GERMES {
+  transition: 0.2s all !important;
+  transform-origin: 31% 49%;
+  position: relative;
+}
+.GERMES:hover {
+  transform: scale(1.2);
+}
+
+.MEBLE_LACHOWSKI {
+  transition: 0.2s all !important;
+  transform-origin: 22% 43%;
+  position: relative;
+}
+.MEBLE_LACHOWSKI:hover {
+  transform: scale(1.1);
+}
+
+.EKO_PARKIET {
+  transition: 0.2s all !important;
+  transform-origin: 22% 39%;
+  position: relative;
+}
+.EKO_PARKIET:hover {
+  transform: scale(1.1);
+}
+.LASTAG {
+  transition: 0.2s all !important;
+  transform-origin: 18% 31%;
+  position: relative;
+}
+.LASTAG:hover {
+  transform: scale(1.1);
+}
+
+.KOMANDOR {
+  transition: 0.2s all !important;
+  transform-origin: 34% 35%;
+  position: relative;
+}
+.KOMANDOR:hover {
+  transform: scale(1.3);
+}
+
+.DO_WYNAJECIA_1 {
+  transition: 0.2s all !important;
+  transform-origin: 34% 28%;
+  position: relative;
+}
+.DO_WYNAJECIA_1:hover {
+  transform: scale(1.3);
+}
+
+.FAN {
+  transition: 0.2s all !important;
+  transform-origin: 32% 20%;
+  position: relative;
+}
+.FAN:hover {
+  transform: scale(1.2);
+}
+
+.DLA_DOMU_OUTLET_LEWY {
+  transition: 0.2s all !important;
+  transform-origin: 33% 12%;
+  position: relative;
+}
+.DLA_DOMU_OUTLET_PRAWY {
+  transition: 0.2s all !important;
+  transform-origin: 65% 13%;
+  position: relative;
+}
+
+.DLA_DOMU_OUTLET_LEWY:hover {
+  transform: scale(1.2);
+}
+.DLA_DOMU_OUTLET_PRAWY:hover {
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 1440px) {
+  .logo {
+    width: 30%;
+  }
+  .logo-icon__img {
+    max-width: 160px;
+    max-height: 120px;
+  }
+  .logo-brands {
+    height: 140px;
+    width: 23%;
+    padding: 30px 0;
+    border-radius: 5px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo {
+    width: 33.33%;
+  }
+  .logo-icon__img {
+    display: block;
+    margin: 0 40px;
+    max-width: 140px;
+    max-height: 120px;
+  }
+  .logo-brands {
+    height: 140px;
+    width: 23%;
+    padding: 30px 0;
+    background-color: #b6181c;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    width: 98%;
+    margin: 5px 30px;
+  }
+
+  .header_mid .logo_wrap .logo img {
+    position: unset;
+    padding-top: 13px;
+  }
+
+  .logo-icon__img {
+    display: block;
+    margin: 0 40px;
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .logo-brands {
+    height: 120px;
+    width: 43%;
+    padding: 30px 0;
+    background-color: #b6181c;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+  }
+
+  .about-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about-left,
+  .about-right {
+    width: 100%;
+  }
+  .about-heading {
+    text-align: center;
+  }
+
+  .about-text__bold {
+    text-align: center;
+  }
+
+  .about-text__colored {
+    text-align: center;
+  }
+
+  .about-text__primary {
+    text-align: center;
+  }
+
+  .heading__brands,
+  .heading__about,
+  .heading__news {
+    font-size: 36px;
+    margin: 60px 0;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+}
+
+@media only screen and (max-width: 375px) {
+  .logo-icon__img {
+    height: 46px;
+  }
+}
